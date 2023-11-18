@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Ubuntu&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 16px;
+  padding-bottom: 9px;
+}
+
+
+body {
+  color: hsl(186, 14%, 43%);
+  background-color: hsl(185, 41%, 84%);
+  font-family: 'Space Mono';
+  font-size: 1.5rem;
+}
+
+
+header {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+main {
+  margin-bottom: 250px;
+  background-color: white;
+  padding: 16px 40px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+input {
+  width: 75%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(189, 41%, 97%);
+  outline: none;
+  cursor: pointer;
+}
+
+
+input[type='radio'] {
+  display: none;
+}
+
+.inputs {
+  position: relative;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(183, 100%, 15%);
+  padding: 40px;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.all-tips {
+  color: white;
+}
+
+
+
+.tip-sum {
+  color: hsl(172, 67%, 45%);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.results {
+  width: 50%; 
+}
+.inputs-user {
+  width: 50%
+}
+
+.tipsSection {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-bottom: 25px;
+}
+
+
+.all-sum {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.inputs-icon {
+  top: 0.5rem;
+  position: absolute;
+  left: 1rem;
+}
+
+.buttons {
+  gap: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+label {
+  display: inline-block;
+}
+
+.tipsSection-select {
+  width: 80px;
+  padding: 2.5px;
+  text-align: center;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-family: inherit;
+  font-size: inherit;;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.reset {
+  background: white;
+  border-radius: 10px;
+}
+
+.tipsSection-select:hover,
+.custom-amount:hover {
+  background-color: hsla(172, 67%, 45%, 0.4);
+  color: hsl(183, 100%, 15%);
+}
+
+.custom-tips{
+  width: 264px;
+  cursor: pointer;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+
+
+.per-person {
+  font-size: 13px;
+  display: block;
+  color: hsl(186, 14%, 43%);
+}
+
+
+
+.enabled:hover {
+  background-color: hsla(172, 67%, 45%, 0.4);
+}
